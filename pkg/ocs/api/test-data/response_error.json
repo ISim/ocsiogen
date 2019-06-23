@@ -1,0 +1,20 @@
+{
+    "result": {
+        "status": "ERROR",
+        "code": "CMN-VALIDATION-FAILED",
+        "message": "Validation of the Request failed. Check \u0027violations\u0027 for more details.",
+        "violations": [
+            {
+                "path": "state.state",
+                "code": "validation.NotNull"
+            },
+            {
+                "path": "accountExternalId",
+                "code": "validation.Unique"
+            }
+        ]
+    },
+    "name": "CreateAccount",
+    "requestId": "bd46ee65-bc91-42ed-ac37-3ae9f6ed9090",
+    "data": []
+}

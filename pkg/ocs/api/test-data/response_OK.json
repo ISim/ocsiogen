@@ -1,0 +1,47 @@
+{
+    "result": {
+        "status": "OK"
+    },
+    "name": "CreateAccount",
+    "requestId": "bd46ee65-bc91-42ed-ac37-3ae9f6ed9000",
+    "data": [
+        {
+            "name": "CreateCustomer",
+            "seqno": 1,
+            "object": {
+                "customAttributes": {},
+                "state": "ACTIVE",
+                "stateReasonRefId": "nTiuxhvOyx51P0",
+                "stateEntDate": "2019-06-20T00:00:00.000Z",
+                "stateValidFrom": "2019-06-20T00:00:00.000Z",
+                "refId": "nTKgcn5kD0qpWZ"
+            },
+            "objectType": "com.huwwi.pbs.core.model.Customer"
+        },
+        {
+            "name": "CreateAccount",
+            "seqno": 2,
+            "object": {
+                "accountTypeRefId": "nTjcnZbuZZT6zV",
+                "customerRefId": "nTKgcn5kD0qpWZ",
+                "currencyRefId": "nThqlVfkWbsf8D",
+                "externalId": "test-12346",
+                "customName": "Test customer - API test II.",
+                "customAttributes": {
+                    "Source": "UCRM"
+                },
+                "billCycleRefId": "nTfk71VqftxRLN",
+                "billCycleEntDate": "2019-06-20T00:00:00.000Z",
+                "billCycleValidFrom": "2019-06-20T00:00:00.000Z",
+                "paymentResponsible": true,
+                "state": "ACTIVE",
+                "stateReasonRefId": "nTiuxhvOyx51P0",
+                "stateEntDate": "2019-06-20T00:00:00.000Z",
+                "stateValidFrom": "2019-06-20T00:00:00.000Z",
+                "testAccount": false,
+                "refId": "nTvvyvuNm3iRs8"
+            },
+            "objectType": "com.huwwi.pbs.core.model.Account"
+        }
+    ]
+}

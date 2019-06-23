@@ -1,0 +1,11 @@
+{
+    "result": {
+        "status": "OK"
+    },
+    "name": "CreateAccount",
+    "requestId": "bd46ee65-bc91-42ed-ac37-3ae9f6ed9000",
+    "data": [
+        {
+            "name": "CreateCustomer",
+            "seqno": 1,
+            "object": {
